@@ -9,12 +9,14 @@ namespace Rover.Main
 
         static void Main(string[] args)
         {
+            /////// Max Bilgilerin İşlenmesi  //////
             Console.WriteLine("Write Max Size");
             var readMaxValues = Console.ReadLine();
             string[] maxValueList = readMaxValues.Split(' ');
             MaxX = Convert.ToInt32(maxValueList[0]);
             MaxY = Convert.ToInt32(maxValueList[1]);
 
+            ///// Rover Başlangıç Pozisyonunun Yapıladırılması /////
             Console.WriteLine("Write Rover Position");
             var readRoverPosition = Console.ReadLine();
             string[] roverPositionList = readRoverPosition.Split(" ");
@@ -29,7 +31,37 @@ namespace Rover.Main
                 X = X,
                 Y = Y
             };
+
+            ///// Yönlendirmelerin Yapılması //////
+            Console.WriteLine("Enter Rover Moves");
+            var Path = Console.ReadLine();
+
+            foreach (char move in Path)
+            {
+                switch (move)
+                {
+                    case 'L':
+                        {
+                            break;
+                        }
+
+                    case 'R':
+                        {
+                            break;
+                        }
+
+                    case 'M':
+                        {
+                            break;
+                        }
+                    default:
+                        break;
+                }
+            }
+
         }
+
+
     }
 
     class Rover

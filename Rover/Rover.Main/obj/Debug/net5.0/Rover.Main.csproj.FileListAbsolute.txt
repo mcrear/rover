@@ -1,0 +1,16 @@
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Rover.Main.exe
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Rover.Main.deps.json
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Rover.Main.runtimeconfig.json
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Rover.Main.runtimeconfig.dev.json
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Rover.Main.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\ref\Rover.Main.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Rover.Main.pdb
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.csproj.AssemblyReference.cache
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.AssemblyInfoInputs.cache
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.AssemblyInfo.cs
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.csproj.CoreCompileInputs.cache
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\ref\Rover.Main.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.pdb
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.genruntimeconfig.cache

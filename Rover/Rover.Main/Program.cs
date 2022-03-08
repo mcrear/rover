@@ -42,16 +42,19 @@ namespace Rover.Main
                 {
                     case 'L':
                         {
+                            TurnLeft(rover);
                             break;
                         }
 
                     case 'R':
                         {
+                            TurnRight(rover);
                             break;
                         }
 
                     case 'M':
                         {
+                            MoveRover(rover);
                             break;
                         }
                     default:
@@ -59,9 +62,59 @@ namespace Rover.Main
                 }
             }
 
+            Console.WriteLine($"{rover.X} {rover.Y} {rover.Direction}");
+
+            Console.ReadKey();
         }
 
+        private static void MoveRover(Rover rover)
+        {
+            switch (rover.Direction)
+            {
+                case Direction.N:
+                    rover.Y++;
+                    break;
+                case Direction.E:
+                    rover.X++;
+                    break;
+                case Direction.S:
+                    rover.Y--;
+                    break;
+                case Direction.W:
+                    rover.X--;
+                    break;
+                default:
+                    break;
+            }
+        }
 
+        private static void TurnRight(Rover rover)
+        {
+            var dir = Convert.ToInt16(rover.Direction);
+            if (dir == 4)
+            {
+                rover.Direction = Direction.N;
+            }
+            else
+            {
+                dir++;
+                rover.Direction = (Direction)dir;
+            }
+        }
+
+        private static void TurnLeft(Rover rover)
+        {
+            var dir = Convert.ToInt16(rover.Direction);
+            if (dir == 1)
+            {
+                rover.Direction = Direction.W;
+            }
+            else
+            {
+                dir--;
+                rover.Direction = (Direction)dir;
+            }
+        }
     }
 
     class Rover
@@ -73,9 +126,9 @@ namespace Rover.Main
 
     enum Direction
     {
-        N,
-        S,
-        E,
-        W
+        N = 1,
+        E = 2,
+        S = 3,
+        W = 4
     }
 }

@@ -14,3 +14,7 @@ C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.d
 C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\ref\Rover.Main.dll
 C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.pdb
 C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.genruntimeconfig.cache
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\warni\Source\Repos\rover\Rover\Rover.Main\obj\Debug\net5.0\Rover.Main.csproj.CopyComplete
